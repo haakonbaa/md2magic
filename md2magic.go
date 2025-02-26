@@ -75,7 +75,7 @@ func main() {
 	}
 
 	extensions := parser.CommonExtensions
-	re := regexp.MustCompile(`(?m)^#+\s*([a-zA-Z][a-zA-Z0-9\s]+).*`)
+	re := regexp.MustCompile(`(?m)^#+\s*(.*)`)
 	for _, file := range files {
 		filePath := filepath.Join(absInputDir, file.Name())
 		// Copy directories from input to output directory
