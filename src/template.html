@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>%(TITLE)</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style-dark.css">
+</head>
+<body>
+    <div class="sidebar">
+    <h2>Notes</h2>
+    <ul>
+        <li><a href="main.html">Main</a></li>
+        <li><a href="0117.html">Fre 17. Jan</a></li>
+        <li><a href="0130.html">Tor 30. Jan</a></li>
+        <li><a href="0217.html">Man 17. Feb</a></li>
+        <li><a href="0226.html">Tor 26. Feb</a></li>
+        <li><a href="step.html">.STEP notater</a></li>
+    </ul>
+</div>
+<div class="container">
+    %(CONTENTS)
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+	displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+</body>
+</html>

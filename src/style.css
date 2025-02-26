@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Reset some basic elements for consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block; /* Optional: Removes bottom whitespace */
+}
+
+/* Container for the main content */
+.container {
+    max-width: 800px; /* Maximum width of the content box */
+    margin: 40px auto; /* Centers the container horizontally with top and bottom margins */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: #ffffff; /* Sets a white background for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    border-radius: 8px; /* Rounds the corners of the container */
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+/* Code Blocks */
+pre {
+    background-color: #eee;
+    padding: 10px;
+    border-left: 3px solid #ccc;
+    overflow-x: auto;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Links */
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Responsive Design */
+@media (max-width: 850px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+}
+

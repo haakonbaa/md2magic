@@ -1,0 +1,6 @@
+md2magic
+out
+src/*
+!src/template.html
+!src/style.css
+!src/style-dark.css
